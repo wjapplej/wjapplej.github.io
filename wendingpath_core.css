@@ -31,7 +31,7 @@ p.jqCopyRight { font-size: 16px!important; line-height: 30px!important;}
 h5  { font-size: 16px!important; line-height: 18px!important; }
 h6  { font-size: 14px!important; line-height: 16px!important; }
 ol  { font-size: 20px!important; line-height: 33px!important;}
-ul  { font-size: 20px!important; line-height: 33px!important; }
+ul  { font-size: 20px!important; line-height: 24px!important; }
 
  .headers  {
       position: sticky!important;
@@ -50,7 +50,7 @@ h4  { font-size: 16px!important; line-height: 20px!important; }
 h5  { font-size: 14px!important; line-height: 18px!important; }
 h6  { font-size: 12px!important; line-height: 16px!important; }
 p { line height: 20px!important;}
-
+ul  { font-size: 20px!important; line-height: 33px!important; }
 ul.dynamic_menu_texts  { font-size: 14px!important; }
 }
 /* end mobile */
@@ -58,7 +58,7 @@ ul.dynamic_menu_texts  { font-size: 14px!important; }
 .navbar { border-width: 0px!important; border-bottom: 0px!important; }
 .zen-full-width { padding-left: 0px!important; }
 
-.parrot .navbar-header .navbar-brand img { max-height: 200px!important;  }
+.parrot .navbar-header .navbar-brand img { max-height: 100px!important;  }
 
 .parrot  .header-logo A {  font-size: 20px!important; font-family: Quicksand,sans-serif;!important;   text-transform: Capitalize!important;
 margin-left: 0px!important;  padding-top: 0px!important;  padding-left: 10px!important;  padding-bottom: 0px!important; }
