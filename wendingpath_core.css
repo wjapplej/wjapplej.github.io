@@ -1,7 +1,16 @@
 
+<style type="text/css">
 A.body-link:link { text-decoration:underline!important; color: black!important;}
 A.body-link:hover { text-decoration:none!important; color: #444444!important; }
 
+ul  li.fa-circle::before {
+font-size: 8px!important;
+margin-bottom: 5px!important;
+}
+
+li {
+margin-bottom: 5px!important;
+}
 
 /* set for desktop specific */
 @media  only screen and (min-width: 1200px) {
@@ -31,7 +40,7 @@ p.jqCopyRight { font-size: 16px!important; line-height: 30px!important;}
 h5  { font-size: 16px!important; line-height: 18px!important; }
 h6  { font-size: 14px!important; line-height: 16px!important; }
 ol  { font-size: 20px!important; line-height: 33px!important;}
-ul  { font-size: 20px!important; line-height: 22px!important; }
+ul  { font-size: 18px!important; line-height: 20px!important; }
 
  .headers  {
       position: sticky!important;
@@ -45,17 +54,18 @@ ul  { font-size: 20px!important; line-height: 22px!important; }
 @media  only screen and (max-width: 600px) {
 h1  { font-size: 24px!important; line-height: 33px!important;}
 h2  { font-size: 24px!important; line-height: 33px!important;}
-h3 {  font-size: 20px!important; line-height: 33px!important;}
+h3 {  font-size: 18px!important; line-height: 24px!important;}
 h4  { font-size: 16px!important; line-height: 20px!important; }
 h5  { font-size: 14px!important; line-height: 18px!important; }
 h6  { font-size: 12px!important; line-height: 16px!important; }
 p { font-size: 16px!important; line height: 20px!important;}
-ul  { font-size: 16px!important; line-height: 20px!important; }
+ul  { font-size: 16px!important; line-height: 18px!important; }
 ul.dynamic_menu_texts  { font-size: 14px!important; }
+.dropbtn { font-size: 16px!important; }
 }
 /* end mobile */
 
-.navbar { border-width: 0px!important; border-bottom: 0px!important; }
+.navbar { border-width: 0px!important; border-bottom: 1px solid #000000!important; }
 .zen-full-width { padding-left: 0px!important; }
 
 .parrot .navbar-header .navbar-brand img { max-height: 100px!important;  }
@@ -63,7 +73,6 @@ ul.dynamic_menu_texts  { font-size: 14px!important; }
 .parrot  .header-logo A {  font-size: 20px!important; font-family: Quicksand,sans-serif;!important;   text-transform: Capitalize!important;
 margin-left: 0px!important;  padding-top: 0px!important;  padding-left: 10px!important;  padding-bottom: 0px!important; }
 
+.jqCopyRight  { margin-left: 5px!important; }
 
-.headers  {    border-bottom: 2px black solid!important;  }
-
-.footer-block { padding-left: 10px!important; }
+</style>
