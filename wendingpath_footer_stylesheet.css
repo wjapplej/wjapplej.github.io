@@ -12,6 +12,7 @@ ul.fab  { margin-right: 0px!important; }
 @media  only screen and (max-width: 600px) {
 .social-icons { justify-content: flex-start!important; font-size: 18px!important; }
 }
+A.foot-menu-item { text-decoration:none!important; color: black!important; }
 A.foot-menu-item:hover { text-decoration:none!important; color: #68b4d5!important; }
 li.foot-menu-item { margin-bottom: 0px!important;}
 
