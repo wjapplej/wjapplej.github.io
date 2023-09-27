@@ -1,18 +1,32 @@
 /* CSS style sheet for WendingPath footers */
 
 <style type="text/css">
-.foot-menu-item { color: black!important; }
+.foot-menu-item { color: black!important; line-height: 20px!important;
+margin-bottom: 10px!important;
+}
 
+a.fab { color: black!important;  margin-right: 0px!important; }
+li.fab { margin-right: 10px!important; }
+ul.fab  { margin-right: 0px!important; }
+
+@media  only screen and (max-width: 600px) {
+.social-icons { justify-content: flex-start!important; font-size: 18px!important; }
+}
 A.foot-menu-item:hover { text-decoration:none!important; color: #68b4d5!important; }
+li.foot-menu-item { margin-bottom: 0px!important;}
+
+.cprightdata { font-size: 16px!important;  line-height: 18px!important; }
 
 .dropbtn {
   color: #000000;
 background-color: #FFFFFF;
-  padding: 16px 20px;
+  padding: 0px 0px;
   font-size: 18px;
   border: none;
   cursor: pointer;
+line-height: 20px: important;
 }
+li.dropbtn { margin-bottom: 0px!important; }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
@@ -42,7 +56,7 @@ border-radius: 3px;
   color: #000!important;
   font-size: 14px;
 line-height: 16px;
-  padding-top: 5px; padding-bottom: 5px;
+  padding-top: 4px; padding-bottom: 4px;
   text-decoration: none;
   display: block;
 }
@@ -52,5 +66,6 @@ line-height: 16px;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
 
 </style>
