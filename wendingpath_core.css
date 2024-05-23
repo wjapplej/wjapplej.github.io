@@ -20,6 +20,7 @@ h2  { font-size: 30px!important; line-height: 42px!important;}
 h3 {  font-size: 24px!important; line-height: 33px!important;}
 ul.dynamic_menu_texts  { font-size: 20px!important; line-height: 33px!important;}
 p.jqCopyRight  { font-size: 20px!important; line-height: 33px!important;}
+p { font-size: 20px !important; line-height: 33px!important;}
 
 }
 /* End desktop specific */
@@ -37,7 +38,7 @@ p.jqCopyRight { font-size: 16px!important; line-height: 30px!important;}
 
 /* set for anything bigger than mobile  */
 @media only screen and (min-width:600px) {
-    p { font-size: 20px !important; line-height: 33px!important;}
+  
  h4  { font-size: 20px!important; line-height: 24px!important; }
 h5  { font-size: 16px!important; line-height: 18px!important; }
 h6  { font-size: 14px!important; line-height: 16px!important; }
