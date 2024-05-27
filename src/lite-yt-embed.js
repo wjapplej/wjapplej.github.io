@@ -89,7 +89,8 @@ class LiteYTEmbed extends HTMLElement {
         if (LiteYTEmbed.preconnected) return;
 
         // The iframe document and most of its subresources come right off youtube.com
-        LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube-nocookie.com');
+      //    LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube-nocookie.com');
+        LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube.com');
         // The botguard script is fetched off from google.com
         LiteYTEmbed.addPrefetch('preconnect', 'https://www.google.com');
 
@@ -189,7 +190,8 @@ class LiteYTEmbed extends HTMLElement {
         iframeEl.allowFullscreen = true;
         // AFAIK, the encoding here isn't necessary for XSS, but we'll do it only because this is a URL
         // https://stackoverflow.com/q/64959723/89484
-        iframeEl.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${this.getParams().toString()}`;
+      //    iframeEl.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${this.getParams().toString()}`;
+        iframeEl.src = `https://www.youtube.com/embed/${encodeURIComponent(this.videoId)}?${this.getParams().toString()}`;
         return iframeEl;
     }
 
